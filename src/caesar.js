@@ -29,7 +29,7 @@ const caesarModule = (function () {
       }
     }
 
-    // Convert unicode array back to encoded characters
+    // Convert ASCII array back to encoded characters
     let encodedMessageArray = [];
 
     for (let i = 0; i < shiftedCodeArray.length; i++) {
